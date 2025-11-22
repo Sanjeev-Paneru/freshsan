@@ -5,7 +5,7 @@ import logo2 from "@/assets/banner/dairy banner.png";
 
 export default function Hero() {
   return (
-    <section className="relative h-[85vh] mb-40">
+    <section className="relative h-[85vh] mb-20">
       <div className="absolute inset-0 -z-10">
         <Image
           src={banner}
@@ -34,8 +34,8 @@ export default function Hero() {
       </div>
 
       <div className="container mx-auto relative z-20 h-full flex items-center px-4 sm:px-6 lg:px-8">
-        <div className="w-full lg:max-w-[65%] xl:max-w-[55%] text-white py-12">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-4 leading-tight">
+        <div className="w-full lg:max-w-[65%] xl:max-w-[55%] text-white py-10">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-2 leading-tight">
             Discover the goodness of{" "}
             <span className="text-yellow-400">FreshSan</span> dairy products
           </h1>

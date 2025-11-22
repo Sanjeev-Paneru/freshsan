@@ -7,15 +7,17 @@ export default function FeatureProduct() {
   const featuredProducts = products.slice(0, 4);
 
   return (
-    <div className="container py-10 mt-20">
+    <div className="container py-10 mb-20">
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-primary font-medium text-4xl">Featured Products</h2>
+        <h2 className="text-primary font-medium text-4xl">
+          <span className="text-yellow-400">Featueres</span> Products
+        </h2>
         <Link href="/products">
           <button
             className="
     group relative flex items-center justify-center gap-3
     bg-linear-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700
-    px-8 py-4 md:px-10 md:py-5
+    px-5 py-2 md:px-5 md:py-3
     text-white text-lg md:text-xl font-semibold
     rounded-full shadow-lg hover:shadow-2xl
     transition-all duration-300 hover:scale-105

@@ -3,7 +3,7 @@ import { FaTruck, FaLeaf, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Fields() {
   return (
-    <div className="container py-20">
+    <div className="container mb-20 ">
       <div className="flex flex-col sm:flex-row justify-between items-center px-10 space-y-6 sm:space-y-0 sm:space-x-6">
         <div className="animate-slide-in-left p-6 bg-white text-slate-600 rounded-lg shadow-2xl w-full sm:w-[370px]">
           <div className="mb-4 flex flex-col justify-center gap-2 items-center">

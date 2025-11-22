@@ -5,11 +5,11 @@ export default function FeatureProduct() {
   const featuredProducts = products;
 
   return (
-    <div className="mt-96">
+    <div className="py-10 mb-20">
       <div className="container  ">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-primary font-medium text-4xl">
-            Featured Products
+            <span className="text-yellow-400">Featueres</span> Products
           </h2>
         </div>
 

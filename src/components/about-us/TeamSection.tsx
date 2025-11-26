@@ -57,7 +57,7 @@ export default function TeamSection() {
             Our Team
           </div>
           <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl lg:text-5xl">
-            Meet the <span className="text-gradient-primary">People</span>{" "}
+            Meet the <span className="text-gradient-secondary">People</span>{" "}
             Behind Fresh Dairy
           </h2>
           <p className="text-lg text-gray-600">

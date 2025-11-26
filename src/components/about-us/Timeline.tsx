@@ -64,7 +64,7 @@ export default function Timeline() {
           </div>
           <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl lg:text-5xl">
             35 Years of{" "}
-            <span className="text-gradient-primary">Excellence</span>
+            <span className="text-gradient-secondary">Excellence</span>
           </h2>
           <p className="text-lg text-gray-600">
             From a small family farm to a nationwide trusted brand

@@ -46,12 +46,12 @@ export default function OurStory() {
 
           {/* Right - Story Content */}
           <div className="animate-slide-in-right delay-200">
-            <div className="mb-4 inline-block rounded-full bg-primary/10 px-4 py-2 text-sm font-semibold text-primary">
+            <div className="mb-4 inline-block rounded-full bg-secondary/10 px-4 py-2 text-sm font-semibold text-secondary">
               Our Story
             </div>
             <h2 className="mb-6 text-3xl font-bold text-gray-900 md:text-4xl lg:text-5xl">
               A Legacy of{" "}
-              <span className="text-gradient-primary">Quality & Trust</span>
+              <span className="text-gradient-secondary">Quality & Trust</span>
             </h2>
             <div className="space-y-4 text-gray-600">
               <p className="text-lg">
@@ -85,7 +85,7 @@ export default function OurStory() {
             <div className="mt-8 flex flex-wrap gap-4">
               <div className="flex items-center gap-2 text-gray-900">
                 <svg
-                  className="h-6 w-6 text-green-600"
+                  className="h-6 w-6 text-primary"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"

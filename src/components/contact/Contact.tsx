@@ -10,7 +10,7 @@ export default function ContactPage() {
         <div className="container relative z-10 mx-auto px-4">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="animate-slide-in-left mb-4 text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl">
-              Get In <span className="text-gradient-primary">Touch</span>
+              Get In <span className="text-gradient-secondary">Touch</span>
             </h1>
             <p className="animate-slide-in-right delay-200 text-lg text-gray-600 md:text-xl">
               Have questions? We&apos;d love to hear from you. Send us a message

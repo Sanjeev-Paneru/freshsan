@@ -43,30 +43,30 @@ export default function WeAre() {
         </div>
 
         {/* Right Content */}
-        <div className="flex-1 w-full lg:w-1/2 p-4 sm:p-6 lg:p-7">
-          <h2 className="text-[14px] sm:text-[15px] text-blue-400 font-semibold mb-3 sm:mb-4 text-center lg:text-left">
+        <div className="flex-1 w-full lg:w-1/2 p-4 sm:p-6 lg:p-7 animate-slide-in-right">
+          <h2 className="text-[14px] sm:text-[15px] text-blue-400 font-semibold mb-3 sm:mb-4 text-center lg:text-left animate-fade-in">
             Who We Are
           </h2>
 
-          <p className="text-[28px] sm:text-[35px] leading-tight font-semibold text-blue-800 mb-4 text-center lg:text-left">
+          <p className="text-[28px] sm:text-[35px] leading-tight font-semibold text-blue-800 mb-4 text-center lg:text-left animate-fade-in delay-200">
             Discover the health benefits of organic dairy products with
             FreshSan.
           </p>
 
-          <p className="border-l-4 font-medium border-blue-400 pl-4 sm:pl-5 text-sm sm:text-base text-gray-500 mb-4">
+          <p className="border-l-4 font-medium border-blue-400 pl-4 sm:pl-5 text-sm sm:text-base text-gray-500 mb-4 animate-fade-in delay-300">
             We source our dairy from trusted local farmers who prioritize
             quality and care for their livestock. Every product is crafted with
             dedication to ensure freshness and natural goodness.
           </p>
 
-          <p className="text-sm font-medium sm:text-base text-gray-400 leading-relaxed text-center lg:text-left">
+          <p className="text-sm font-medium sm:text-base text-gray-400 leading-relaxed text-center lg:text-left animate-fade-in delay-400">
             From creamy milk to rich butter and flavorful yogurt, FreshMoo
             offers a variety of options for every taste. Join us in embracing
             healthier choices and supporting sustainable practices.
           </p>
 
           {/* Buttons Section */}
-          <div className="flex items-center mt-6 sm:mt-8 space-x-4">
+          <div className="flex items-center mt-6 sm:mt-8 space-x-4 animate-scale-in delay-500">
             <button
               className="
                 group relative flex items-center justify-center gap-3
@@ -99,11 +99,11 @@ export default function WeAre() {
               {/* Video Modal */}
               {showIframe && (
                 <div
-                  className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 px-4"
+                  className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 px-4 animate-fade-in"
                   onClick={() => setShowIframe(false)}
                 >
                   <div
-                    className="w-full max-w-[700px] h-[350px] sm:h-[400px] bg-white border border-gray-300 rounded-lg shadow-md overflow-hidden"
+                    className="w-full max-w-[700px] h-[350px] sm:h-[400px] bg-white border border-gray-300 rounded-lg shadow-md overflow-hidden animate-scale-in"
                     onClick={(e) => e.stopPropagation()}
                   >
                     <iframe

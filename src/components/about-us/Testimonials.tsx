@@ -54,7 +54,7 @@ export default function Testimonials() {
             Testimonials
           </div>
           <h2 className="mb-4 text-3xl font-bold text-gray-900 md:text-4xl lg:text-5xl">
-            What Our <span className="text-gradient-primary">Customers</span>{" "}
+            What Our <span className="text-gradient-secondary">Customers</span>{" "}
             Say
           </h2>
           <p className="text-lg text-gray-600">

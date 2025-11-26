@@ -13,8 +13,8 @@ export default function AboutHero() {
             </div>
             <h1 className="mb-6 text-4xl font-bold text-gray-900 md:text-5xl lg:text-6xl">
               Delivering{" "}
-              <span className="text-gradient-primary">Freshness</span> For Over
-              35 Years
+              <span className="text-gradient-secondary">Freshness</span> For
+              Over 35 Years
             </h1>
             <p className="mb-8 text-lg text-gray-600 md:text-xl">
               From our family farm to your table, were committed to providing

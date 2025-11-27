@@ -1,4 +1,5 @@
-export const slideLeft = {
+import { Variants } from "framer-motion";
+export const slideLeft: Variants = {
   hidden: { opacity: 0, x: -40 },
   show: {
     opacity: 1,
@@ -7,7 +8,7 @@ export const slideLeft = {
   },
 };
 
-export const slideRight = {
+export const slideRight: Variants = {
   hidden: { opacity: 0, x: 40 },
   show: {
     opacity: 1,
@@ -16,7 +17,7 @@ export const slideRight = {
   },
 };
 
-export const slideUp = {
+export const slideUp: Variants = {
   hidden: { opacity: 0, y: 40 },
   show: {
     opacity: 1,
@@ -25,7 +26,7 @@ export const slideUp = {
   },
 };
 
-export const slideDown = {
+export const slideDown: Variants = {
   hidden: { opacity: 0, y: -40 },
   show: {
     opacity: 1,

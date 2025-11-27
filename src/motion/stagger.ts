@@ -1,4 +1,5 @@
-export const staggerContainer = {
+import { Variants } from "framer-motion";
+export const staggerContainer: Variants = {
   hidden: {},
   show: {
     transition: {
@@ -8,7 +9,7 @@ export const staggerContainer = {
   },
 };
 
-export const staggerFast = {
+export const staggerFast: Variants = {
   hidden: {},
   show: {
     transition: {

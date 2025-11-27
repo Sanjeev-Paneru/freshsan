@@ -10,16 +10,6 @@ export const containerVariant: Variants = {
   },
 };
 
-export const fadeUp: Variants = {
-  hidden: { opacity: 0, y: 18 },
-  show: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.6 },
-  },
-  exit: { opacity: 0, y: 6, transition: { duration: 0.3 } },
-};
-
 export const imageVariant: Variants = {
   hidden: { opacity: 0, scale: 0.995, y: 12 },
   show: {
